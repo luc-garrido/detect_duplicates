@@ -17,7 +17,7 @@ This is a Python script to detect and optionally delete duplicate PDF and DOCX f
 - `hashlib`
 - `os`
 - `docx`
-- `PyPDF2` (or another library you use)
+- `PyPDF2`
 
 Install the dependencies with:
 
