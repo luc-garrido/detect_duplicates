@@ -11,6 +11,7 @@ This is a Python script to detect and optionally delete duplicate PDF and DOCX f
 
 ## 📦 Requirements
 
+- Folder "arquivos"
 - Python 3.7+
 - Libraries:
 - `hashlib`
