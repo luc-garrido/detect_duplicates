@@ -1,24 +1,24 @@
-# 📁 Detector de Arquivos Repetidos (.pdf e .docx)
+# 📁 Duplicate File Detector (.pdf and .docx)
 
-Este é um script em Python para detectar e, opcionalmente, apagar arquivos PDF e DOCX duplicados em um diretório. Ele compara os arquivos com base no conteúdo (não apenas no nome) e pergunta ao usuário se deseja excluir as cópias encontradas.
+This is a Python script to detect and optionally delete duplicate PDF and DOCX files in a directory. It compares files based on their content (not just their name) and asks the user if they want to delete the duplicates found.
 
-## ✅ Funcionalidades
+## ✅ Features
 
-- Suporte a arquivos `.pdf` e `.docx`
-- Verificação baseada no conteúdo dos arquivos (hashing)
-- Interface interativa no terminal para decidir se apaga os duplicados
-- Rápido e fácil de usar
+- Support for `.pdf` and `.docx` files
+- Content-based verification (hashing)
+- Interactive terminal interface to decide whether to delete duplicates
+- Quick and easy to use
 
-## 📦 Requisitos
+## 📦 Requirements
 
 - Python 3.7+
-- Bibliotecas:
-  - `hashlib`
-  - `os`
-  - `docx`
-  - `PyPDF2` (ou outra usada por você)
+- Libraries:
+- `hashlib`
+- `os`
+- `docx`
+- `PyPDF2` (or another library you use)
 
-Instale as dependências com:
+Install the dependencies with:
 
 ```bash
 pip install python-docx PyPDF2
